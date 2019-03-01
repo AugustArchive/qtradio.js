@@ -1,0 +1,16 @@
+{
+    "name": "qtradio.js",
+    "description": "API wrapper for qtradio.moe",
+    "version": "0.0.1",
+    "main": "lib/index.js",
+    "types": "index.d.ts",
+    "author": "auguwu <augu@voided.pw>",
+    "dependencies": {
+        "wumpfetch": "0.0.9"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/auguwu/qtradio.js"
+    },
+    "bugs": { "url": "https://github.com/auguwu/qtradio.js/issues" }
+}
