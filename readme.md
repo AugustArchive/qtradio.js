@@ -11,9 +11,49 @@ const radio   = qtradio.createInstance();
 radio.getInfo();
 ```
 
+## FFmpeg Stream
+
+### Example 1: Discord Bots (discord.js)
+
+```js
+const { Client } = require('discord.js');
+const qtradio = require('qtradio.js');
+
+const api = qtradio.createInstance();
+const bot = new Client();
+
+bot.on('ready', () => console.log("READY"));
+bot.on('message', async(m) => {
+    if (m.author.bot) return;
+    let connection;
+    
+    if (m.content === 'e;join')
+    {
+        if (m.member.voiceChannel)
+        {
+            connection = await m.guild.me.voiceChannel.join();
+            return m.channel.send(":white_check_mark: Joined the voice channel!");
+        } else return m.channel.send(":x: Unable to join the voice channel... Do I have permissions to join?");
+    }
+    
+    if (m.content === 'e;play')
+    {
+        if (!m.guild.me.voiceChannel || !connection || connection === null) return m.channel.send(":x: Unable to play a stream without executing the `join` command!");
+        const dispatcher = await connection.playStream(api.getStreamUri());
+        m.channel.send(":pencil: Now playing `qtradio.moe`!");
+    }
+});
+
+bot.login("belongs to area 52");
+```
+
+### Example 2: Discord Bots (Eris)
+
+soon:tm:
+
 ## License
 
-> [qtradio.ts](https://github.com/auguwu/qtradio.js) is made by auguwu & is released under the MIT license
+> [qtradio.js](https://github.com/auguwu/qtradio.js) is made by auguwu & is released under the MIT license
 >
 > [qtradio.moe](https://qtradio.moe) is owned by [LiquidBlast](https://github.com/LiquidBlast); this isn't an official wrapper for qtradio.moe
 
