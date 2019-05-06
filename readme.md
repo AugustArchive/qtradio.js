@@ -2,7 +2,7 @@
 
 > :tulip: **API wrapper for qtradio.moe made in JavaScript**
 
-## Usage
+## Examples
 
 ```js
 const qtradio = require('qtradio.js');
@@ -51,14 +51,14 @@ bot.login("belongs to area 52");
 
 soon:tm:
 
-## License
+## Usage
 
-> [qtradio.js](https://github.com/auguwu/qtradio.js) is made by auguwu & is released under the MIT license
+> The following library, [qtradio.js](https://github.com/auguwu/qtradio.js), is made by [auguwu](https://github.com/auguwu) & is licensed under the MIT license
 >
-> [qtradio.moe](https://qtradio.moe) is owned by [LiquidBlast](https://github.com/LiquidBlast); this isn't an official wrapper for qtradio.moe
+> [qtradio.moe](https://qtradio.moe) is owned by [LiquidBlast](https://github.com/LiquidBlast); this library is in no way an official and/or endorsed wrapper for qtradio.moe
 
 ```
-Copyright (c) 2019-present auguwu
+Copyright (c) 2019 - present auguwu
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
