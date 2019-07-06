@@ -13,7 +13,7 @@ radio.getInfo();
 
 ## License
 
-> [qtradio.ts](https://github.com/auguwu/qtradio.js) is made by auguwu & is released under the MIT license
+> [qtradio.js](https://github.com/auguwu/qtradio.js) is made by auguwu & is released under the MIT license
 >
 > [qtradio.moe](https://qtradio.moe) is owned by [LiquidBlast](https://github.com/LiquidBlast); this isn't an official wrapper for qtradio.moe
 

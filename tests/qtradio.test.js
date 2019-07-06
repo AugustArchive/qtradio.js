@@ -1,9 +1,4 @@
-const Qtradio = require('../lib');
-const radio = Qtradio.createInstance();
+const UwU = require('../lib');
+const cli = UwU.createInstance();
 
-async function run() {
-    const info = await radio.getInfo();
-    console.log(info);
-}
-
-run();
+cli.getInfo().then(console.log);

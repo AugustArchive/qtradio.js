@@ -1,7 +1,7 @@
-// Typescript Typings for npm package: qtradio.ts
+// Typescript Typings for npm package: qtradio.js
 // Project and Typings made by auguwu
 
-declare namespace qtradio {
+declare module 'qtradio.js' {
     /**
      * Version constant for qtradio.ts
      */
@@ -9,14 +9,14 @@ declare namespace qtradio {
 
     /**
      * Create an instance of the qtradio.ts client
-     * You can do `new QtradioClient()` but this is for lazy people
+     * You can do `new RadioClient()` but this is for lazy people
      * like the creator
      * @returns The instance
      */
-    export function createInstance(): qtradio.QtradioClient;
+    export function createInstance(): RadioClient;
 
     /** The client itself */
-    export class QtradioClient {
+    export class RadioClient {
         constructor();
         public getInfo(): Promise<InfoData>;
     }
@@ -56,4 +56,3 @@ declare namespace qtradio {
         }
     }
 }
-declare module 'qtradio.ts' { export = qtradio; }

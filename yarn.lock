@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-wumpfetch@0.0.9:
-  version "0.0.9"
-  resolved "https://registry.yarnpkg.com/wumpfetch/-/wumpfetch-0.0.9.tgz#450003f1dff92aafb4cfa173e81867aacfbe05cf"
-  integrity sha512-1n+zM5Ozpow0xF/wM+8TbIXoGvy9Co0UK9delRIZZdFY6r1kCVTbdygjGyRoZZ3d+WPJa7k70sfT/saLR/mEcA==
+wumpfetch@0.2.13:
+  version "0.2.13"
+  resolved "https://registry.yarnpkg.com/wumpfetch/-/wumpfetch-0.2.13.tgz#7bd0cb41dafddb2be0a813dd9576d3ad919297ef"
+  integrity sha512-ALWw6oDSdk6oYqrJuffQjzTPicYgzTR1sLgX+SMgnXZQTikuM8hFhznSMmIoa+qVCiUaLYtjhSkS2SE/BTRyxw==
