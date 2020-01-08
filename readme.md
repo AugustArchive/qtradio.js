@@ -1,9 +1,9 @@
 # qtradio.moe API
-
 > :tulip: **API wrapper for qtradio.moe made in JavaScript**
+>
+> :warning: **This wrapper is deprecated, don't use this because it will not work!**
 
 ## Usage
-
 ```js
 const qtradio = require('qtradio.js');
 const radio   = qtradio.createInstance();
@@ -12,7 +12,6 @@ radio.getInfo();
 ```
 
 ## License
-
 > [qtradio.js](https://github.com/auguwu/qtradio.js) is made by auguwu & is released under the MIT license
 >
 > [qtradio.moe](https://qtradio.moe) is owned by [LiquidBlast](https://github.com/LiquidBlast); this isn't an official wrapper for qtradio.moe
